@@ -65,7 +65,11 @@ form{
     .dropdown-menu{
       text-align: right;
     }
+    
     .btn{
         height: 40px !important;
     }
+}
+.datepicker-container{
+  z-index: 1040 !important;
 }

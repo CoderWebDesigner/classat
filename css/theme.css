@@ -122,6 +122,9 @@ form .dropdown-menu {
 form .btn {
   height: 40px !important; }
 
+.datepicker-container {
+  z-index: 1040 !important; }
+
 .owl-dots {
   width: 100px;
   margin: 0 auto;
