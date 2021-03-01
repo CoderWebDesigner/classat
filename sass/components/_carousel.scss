@@ -1,0 +1,83 @@
+
+// Carousel Dots
+.owl-dots{
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    button{
+
+        width: 10px;
+        height: 10px;
+        margin-left: 10px;
+        background: #ddd !important;
+        border-radius: 50%;
+    }
+    button.active{
+        background: $secondaryColor !important;
+    }
+}
+// Carousel Arrows
+
+.left{
+    position: absolute;
+    font-size: 26px;
+    top: 50%;
+    transform: translatey(-50%);
+    left:0px;
+    &:hover{
+        color: $secondaryColor;
+    }
+}
+.right{
+    position: absolute;
+    font-size: 26px;
+    top: 50%;
+    transform: translatey(-50%);
+    right:0px;
+    &:hover{
+        color: $secondaryColor;
+    }
+}
+
+// Center Mode
+
+.stories-list{
+    .quote{
+        
+        i{
+            font-size: $defaultFontSize +50;
+            color: #ddd;
+        }
+        .user-quote{
+            background: #EAEBEC;
+            margin-top: 50px;
+        }
+        .user-info{
+            position: relative;
+            top: -55px;
+            img{
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+                opacity: 0.8;
+                
+            }
+        }
+    }
+    .center{
+        .user-quote{
+            transition: all .5s;
+            margin-top: 0px !important;
+            background: $mainColor;
+        }
+        i{
+            color: #ffffff7d;
+        }
+        p{
+            color: #fff;
+        }
+        img{
+            opacity: 1 !important;
+        }
+    }
+}

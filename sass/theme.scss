@@ -1,0 +1,17 @@
+@import 'helpers/variables';
+@import 'helpers/reset';
+@import 'helpers/colors';
+@import 'helpers/border';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'components/form';
+@import 'components/carousel';
+@import 'components/card';
+@import 'components/pagination';
+body{
+    font-family: $fontFamily;
+    direction: $pgDirection;
+    text-align: $textDirection;
+    font-size: $defaultFontSize;
+    overflow-x: hidden;
+}

@@ -1,0 +1,52 @@
+@import '../helpers/variables';
+// Profile 
+.profile{
+    // Profile image
+    .overlay{
+        background: #0000007d;
+        width: 126px;
+        height: 126px;
+        font-size: $defaultFontSize + 18;
+        line-height: 126px;
+        border-radius: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0;
+        cursor: pointer;
+    }
+    &-img{
+        width: 126px;
+        // height: 126px;
+        img{
+            object-fit: cover;
+            height: 126px;
+            
+        }
+        &:hover{
+            .overlay{
+                opacity: 1 !important;
+            }
+        }
+    }
+    // Nav
+    .list-group-item.active{
+        border-top: 0;
+        a{
+            color: $secondaryColor !important;
+        }
+    }
+    .list-group-item{
+        background: #fff;
+        
+        a{
+            text-decoration:none;
+            transition: all ease-in-out;
+        }
+        &:hover{
+            a{
+                color: $secondaryColor !important;
+
+            }
+        }
+    }
+}

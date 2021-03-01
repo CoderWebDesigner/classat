@@ -1,0 +1,26 @@
+.institute-card{
+    .add-favourite{
+        left: 20px;
+        top: 20px;
+        font-size: $defaultFontSize + 5;
+        i{
+            
+            color: $secondaryColor;
+        }
+    }
+    p{
+        font-size: $defaultFontSize - 2;
+        i{
+            text-align: center;
+            width: 25px;
+        }
+    }
+    del{
+        font-size: $defaultFontSize - 3;
+    }
+    .card-footer{
+        border-bottom-left-radius: 10px !important;
+        border-bottom-right-radius: 10px !important;
+
+    }
+}

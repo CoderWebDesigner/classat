@@ -1,0 +1,31 @@
+.profile .overlay {
+  background: #0000007d;
+  width: 126px;
+  height: 126px;
+  font-size: 34px;
+  line-height: 126px;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  cursor: pointer; }
+.profile-img {
+  width: 126px; }
+  .profile-img img {
+    object-fit: cover;
+    height: 126px; }
+  .profile-img:hover .overlay {
+    opacity: 1 !important; }
+.profile .list-group-item.active {
+  border-top: 0; }
+  .profile .list-group-item.active a {
+    color: #F4C20D !important; }
+.profile .list-group-item {
+  background: #fff; }
+  .profile .list-group-item a {
+    text-decoration: none;
+    transition: all ease-in-out; }
+  .profile .list-group-item:hover a {
+    color: #F4C20D !important; }
+
+/*# sourceMappingURL=profile.css.map */
